@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Afran Anas - Homepage</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Afran Anas</h1>
+        <img src="afrananas.jpg" alt="My Photo" width="150">
+        
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#personal-info">Personal Info</a></li>
+            <li><a href="#about-me">About Me</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#technical-skills">Technical Skills</a></li>
+            <li><a href="#hobbies">Hobbies</a></li>
+        </ul>
+    </nav>
+
+    <section id="personal-info">
+        <h2>Personal Info</h2>
+        <p><strong>Name:</strong> Afran Anas</p>
+        <p><b>Background:</b> I’m a Computer Science student at BRAC University who loves coding, playing soccer, and exploring video games. With a keen interest in business and entrepreneurship, I’m always eager to learn and grow in both tech and innovative ventures. </p>
+    </section>
+
+    <section id="about-me">
+        <h2>About Me</h2>
+        <p>I'm a 23-year-old Computer Science undergraduate at BRAC University with a passion for coding, problem-solving, and technology. Beyond academics, I enjoy playing soccer and video games, which keep me active and entertained. I also have a keen interest in business and entrepreneurship, always eager to explore new ideas and opportunities. Balancing my love for tech, sports, and business, I strive to grow both personally and professionally.</p>
+        <blockquote>
+            “Twenty years from now you will be more disappointed by the things that you didn't do than by the ones you did do. So throw off the bowlines. Sail away from the safe harbor. Catch the trade winds in your sails. Explore. Dream. Discover.” – H. Jackson Brown Jr.
+        </blockquote>
+    </section>
+
+    <section id="education">
+        <h2>Education</h2>
+        <p><strong>University:</strong> <a href="https://www.bracu.ac.bd" target="_blank">BRAC University</a></p>
+        <p><strong>Major:</strong> Computer Science and Engineering</p>
+    </section>
+
+    <section id="technical-skills">
+        <h2>Technical Skills</h2>
+        <ul>
+            <li>HTML, CSS, JavaScript, PHP</li>
+            <li>Python, Java, C/C++</li>
+            <li>Database Management</li>
+            
+        </ul>
+    </section>
+
+    <section id="hobbies">
+        <h2>Hobbies</h2>
+        <ul>
+            <li>Reading</li>
+            <li>Playing Sports</li>
+            <li>Traveling</li>
+        </ul>
+        <div class="hobby-image">
+            <img src="https://images.unsplash.com/photo-1579952363873-27f3bade9f55?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Soccer Ball" width="200">
+            <p><em>Image Source: <a href="https://unsplash.com" target="_blank">Unsplash</a></em></p>
+    </section>
+
+    
+    </section>
+    <section id="favorites">
+        <h2>My Favorites</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Category</th>
+                    <th>List</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>My Top 10 Favorite Movies</td>
+                    <td colspan="2">
+                        <ul>
+                            <li><strong>The Shawshank Redemption</strong> (1994)</li>
+                            <li><strong>The Godfather</strong> (1972)</li>
+                            <li><strong>The Dark Knight</strong> (2008)</li>
+                            <li><strong>Pulp Fiction</strong> (1994)</li>
+                            <li><strong>Forrest Gump</strong> (1994)</li>
+                            <li><strong>Inception</strong> (2010)</li>
+                            <li><strong>The Matrix</strong> (1999)</li>
+                            <li><strong>Interstellar</strong> (2014)</li>
+                            <li><strong>Fight Club</strong> (1999)</li>
+                            <li><strong>The Lord of the Rings: The Return of the King</strong> (2003)</li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>My Top 5 Favorite Books</td>
+                    <td >
+                        <ul>
+                            <li><strong>1984</strong> by George Orwell</li>
+                            <li><strong>To Kill a Mockingbird</strong> by Harper Lee</li>
+                            <li><strong>The Great Gatsby</strong> by F. Scott Fitzgerald</li>
+                            <li><strong>Pride and Prejudice</strong> by Jane Austen</li>
+                            <li><strong>The Alchemist</strong> by Paulo Coelho</li>
+                        </ul>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form action="mailto:youremail@example.com" method="post" enctype="text/plain">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+    <p>I enjoy reading articles on <a href="https://www.wattpad.com/" target="_blank">wattpad</a>.</p>
+    <p>Check out my <a href="projects.html">Projects</a>.</p>
+
+    <p>Join the <a href="https://discord.gg/Dseb6KHM" target="_blank">CSE 391 Discord</a> for updates and discussions.</p>
+    <button id="theme-toggle">Toggle Dark Mode</button>
+
+    <footer>
+        <p>Page Location: <span id="page-location"></span></p>
+        <p>Last Modified: <span id="last-modified"></span></p>
+        <p>&copy; 2025 Afran Anas. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
